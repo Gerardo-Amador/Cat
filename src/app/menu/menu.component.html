@@ -1,0 +1,35 @@
+<p>Componente Menu</p>
+
+<h1>JUEGO DEL GATO CON BOTAS 420</h1>
+<div class="row">
+    <div>
+        <h3>Jugador</h3>
+        <p>0</p>
+    </div>
+    <div class="row1">
+        <div class="opcion1">
+            <label for="s1"><b>Inicia:</b></label>
+            <select id="s1" [disabled]="svf" (change)="turno($event)">
+                <option value="0"> {{vei[0]}} </option>
+                <option value="1"> {{vei[1]}} </option>
+                <option value="2"> {{vei[2]}} </option>
+                </select>
+        </div>
+        <div class="opcion2">
+            <menu>
+                <li><button [disabled]="false" (click)="enviar()">{{vei[0]}}</button></li>
+                <!--<li><button >{{oie[4]}}</button></li> -->
+                <li><b><a href="#">{{vei[5]}}</a></b></li>
+            </menu>
+        </div>
+    </div>
+
+</div>
+<!-- <p id="ganador"></p>
+<div class="centro acciones">
+    <button id="reiniciar">Nuevo juego</button>
+    <select id="primer-jugador">
+            <option value="O">Jugador</option>
+            <option value="X">Computadora</option>
+        </select>
+</div>>-->

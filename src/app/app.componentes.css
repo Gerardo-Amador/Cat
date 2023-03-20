@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #57faa1;
+    color: #000000;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#ganador {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    height: 50px;
+}
+
+#puntuacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#puntuacion-jugador,
+#puntuacion-computadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#puntuacion-jugador {
+    margin-right: 15px;
+}
+
+#puntuacion-computadora {
+    margin-left: 15px;
+}
+
+.acciones {
+    margin-bottom: 30px;
+}
+
+#reiniciar {
+    padding: 10px;
+    border: none;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#reiniciar:hover {
+    cursor: pointer;
+    color: #222;
+    background-color: #000000;
+    border: 1px solid black;
+}
+
+.centro {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#cuadricula {
+    display: grid;
+    grid-template-columns: 160px 160px 160px;
+    grid-template-rows: 160px 160px 160px;
+}
+
+.cuadro {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    transition: all 0.2s ease-out;
+}
+
+.cuadro:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.cuadro-superior-izquierdo {
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+.cuadro-superior-central {
+    border-bottom: 2px solid #000000;
+}
+
+.cuadro-superior-derecho {
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+}
+
+.cuadro-central-izquierdo {
+    border-right: 2px solid #000000;
+}
+
+.cuadro-central {}
+
+*/ .cuadro-central-derecho {
+    border-left: 2px solid #000000;
+}
+
+.cuadro-inferior-izquierdo {
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+.cuadro-inferior-central {
+    border-top: 2px solid #000000;
+}
+
+.cuadro-inferior-derecho {
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+}

@@ -1,0 +1,5 @@
+ <menu>
+                <li><button [disabled]="false" (click)="enviar()">{{vei[0]}}</button></li>
+                <!--<li><button >{{oie[4]}}</button></li> -->
+                <li><b><a href="#">{{vei[5]}}</a></b></li>
+            </menu>
