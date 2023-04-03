@@ -12,7 +12,7 @@ export class AppComponent{
     rjug:number=0; //jugar
     metodopadre(rv: number[]){
         this.rjsn=rv[0];
-        this.rcjp=rv[1];
+        this.rcjp=rv[1]; //Puntuacion
         this.rjug=rv[2];
     }
 }

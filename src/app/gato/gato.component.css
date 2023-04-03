@@ -1,0 +1,28 @@
+.figura1,
+.figura2,
+.figura3,
+.figura4,
+.figura5,
+.figura6,
+.figura7,
+.figura8,
+.figura9 {
+    background-color: rgb(238, 255, 0);
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    margin-top: 800 px;
+    margin-left: 800 px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke: 2px rgb(8, 8, 8);
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 0 -3px;
+}

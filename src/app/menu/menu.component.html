@@ -1,25 +1,20 @@
-<p>Componente Menu</p>
-
 <h1>JUEGO DEL GATO CON BOTAS 420</h1>
 <div class="row">
-    <div>
-        <h3>Jugador</h3>
-        <p>0</p>
-    </div>
     <div class="row1">
         <div class="opcion1">
             <label for="s1"><b>Inicia:</b></label>
             <select id="s1" [disabled]="svf" (change)="turno($event)">
-                <option value="0"> {{vei[0]}} </option>
-                <option value="1"> {{vei[1]}} </option>
-                <option value="2"> {{vei[2]}} </option>
-                </select>
+                <option value="0"> {{oie[0]}} </option>
+                <option value="1"> {{oie[1]}} </option>
+                <option value="2"> {{oie[2]}} </option>
+            </select>
         </div>
         <div class="opcion2">
             <menu>
-                <li><button [disabled]="false" (click)="enviar()">{{vei[0]}}</button></li>
-                <!--<li><button >{{oie[4]}}</button></li> -->
-                <li><b><a href="#">{{vei[5]}}</a></b></li>
+                <button [disabled]="false" (click)="enviar()">{{oie[3]}}</button>
+                <button (click)="enviar()">{{oie[4]}}</button>
+                <button (click)="enviar()">{{oie[5]}}</button>
+                <!--<b><a href="#">{{vei[5]}}</a></b>-->
             </menu>
         </div>
     </div>
